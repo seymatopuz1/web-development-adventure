@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0" />
+    <title>Tables</title>
+  </head>
+  <!--  cell padding kendilerinde mesafe katmamızı sağlar
+    cellspacing ise hücreler arasındaki mesafeyi artırıyoruz -->
+  <body>
+    <table border="1" widtd="80%" cellpadding="10" cellspacing="10">
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>model</th>
+          <th>fiyat</th>
+          <th>görsel</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td rowspan="2">iphone 16</td>
+          <td>120000</td>
+          <td>1.jpeg</td>
+        </tr>
+        <tr>
+          <td>2</td>
+
+          <td>120000</td>
+          <td>2.jpeg</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>iphone 14</td>
+          <td colspan="2">100000 - 3.jpeg</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
