@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <!-- 
+    Form ile bir bbilgiyi action içerisinde tanımlanan adrese gönderiyoruz.Bu adres aslında bir dosyaya karşılık geliyor.
+    -->
+  <!-- Label etiketindeki for ile inputumuzdaki 
+    id etiketleri birbirleri ile eşleşmelidir
+    Label da input da inline bir elemandır. 
+    Div ise blok eleman olarak ayarlamamızı sağlar
+    radio inputuna name bilgisi vermek sadece o gruptan 1 tane seçebilmemizi sağlar
+  -->
+  <body>
+    <form action="register.php">
+      <div>
+        <label for="name">Adınız:</label>
+        <input type="text" id="name" />
+      </div>
+
+      <div>
+        <label for="surname">Soyadınız:</label>
+        <input type="text" id="surname" />
+      </div>
+
+      <div>
+        <label for="password">Şifreniz:</label>
+        <input type="password" id="password" />
+      </div>
+
+      <div>
+        <label for="intro">Kendinizi Açıklayınız:</label>
+        <textarea id="intro"></textarea>
+      </div>
+
+      <div>
+        <p>En sevdiğin Programlama Dili Nedir?</p>
+        <input type="radio" id="Csharp" name="programlama" />
+        <label for="Csharp">C#</label>
+
+        <input type="radio" id="java" name="programlama" />
+        <label for="java">Java</label>
+
+        <input type="radio" id="php" name="programlama" />
+        <label for="php">PHP</label>
+      </div>
+
+      <div>
+        <p>En sevdiğin Programlama Dili Nedir?</p>
+        <input type="checkbox" id="Csharp2" />
+        <label for="Csharp2">C#</label>
+
+        <input type="checkbox" id="java2" />
+        <label for="java2">Java</label>
+
+        <input type="checkbox" id="php2" />
+        <label for="php2">PHP</label>
+      </div>
+
+      <div>
+        <label for="cities">Şehir</label>
+        <select id="cities">
+          <option value="istanbul">İstanbul</option>
+          <option value="ankara">Ankara</option>
+          <option value="izmir">İzmir</option>
+          <option value="adana">Adana</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="mail">Mail Adresiniz:</label>
+        <input type="email" id="mail" />
+      </div>
+      <div>
+        <label for="birthday">Doğum Tarihiniz:</label>
+        <input type="date" id="birthday" />
+      </div>
+
+      <button type="submit">Kaydet</button>
+    </form>
+  </body>
+</html>
