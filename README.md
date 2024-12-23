@@ -15,7 +15,7 @@ Her modülde öğrendiklerimi ve tamamladığım görevleri buraya ekliyorum.
 
 ### 1️⃣ **HTML ve CSS**
 - [x] HTML Temelleri
-- [x] CSS ile Stil Verme
+- [ ] CSS ile Stil Verme
 - [ ] Responsive Tasarım
 - [ ] Flexbox ve Grid
 
@@ -42,9 +42,3 @@ Her modülde öğrendiklerimi ve tamamladığım görevleri buraya ekliyorum.
 1. Her hafta en az **2 saat ders** izlemek ve pratik yapmak.
 2. Günlük olarak öğrendiğim konuları GitHub’a yüklemek.
 3. Kursun sonunda bir portfolyo oluşturmak.
-
----
-
-## 📂 Depo Düzeni
-Proje içerisindeki dosya ve klasör yapısı:
-
